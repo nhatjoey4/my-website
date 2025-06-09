@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume</title>
+  <style>
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+   
+      body {
+      margin: 1rem;
+      background-image: url(./Project\ pictures/dark-black-background-design-with-stripes.png);
+      background-size: cover;
+      color: white;
+      font-family: Arial, sans-serif;
+      animation: fadeInUp 1s ease-in-out forwards;
+      opacity: 0;
+      animation-fill-mode: forwards;
+      font-size: 20px;
+    }
+  
+
+    img {
+      display: block;
+      margin: 20px;
+      border-radius: 50%;
+    }
+
+    h1, h2, h3, p, li, ul {
+      animation: fadeInUp 1s ease-in-out;
+      animation-fill-mode: forwards;
+      opacity: 0;
+    }
+
+    h1 { animation-delay: 0.2s; }
+    h2 { animation-delay: 0.3s; }
+    h3 { animation-delay: 0.4s; }
+    p, li { animation-delay: 0.5s; }
+
+    .email {
+      text-decoration: none;
+      color: coral;
+    }
+
+    @media (max-width: 480px) {
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Nathan Mensah Nartey</h1>
+  <div class="image">
+    <img src="./Project pictures/IMG_0475.JPG" width="200" height="200" alt="My photo">
+  </div>
+
+  <h2>Contact Information</h2>
+  <h3>Email: <a href="mailto:njmensah@gmail.com" class="email">njmensah@gmail.com</a></h3>
+  <h3>Phone Number: 0559525699</h3>
+
+  <h2>Summary</h2>
+  <p>I am a hardworking and dedicated individual with experience in web development, supervision, and OTC medicine dispensing.</p>
+
+  <hr>
+  <h2>Education</h2>
+  <ul>
+    <li>Junior High School</li>
+    <li>Senior Secondary School</li>
+    <li>Udemy Courses</li>
+  </ul>
+
+  <hr>
+  <h2>Work Experience</h2>
+  <ul>
+    <li>
+      <strong>Supervisor, Petrocell Gas</strong> (October 2021 – August 2022)
+      <p>Supervised fuel discharge and maintained Excel records.</p>
+    </li>
+    <li>
+      <strong>Medicine Counter Assistant, Franita Pharmacy</strong> (January 2024 – January 2025)
+      <p>Dispensed medication and ensured accurate records.</p>
+    </li>
+  </ul>
+
+  <hr>
+  <h2>Skills</h2>
+  <ul>
+    <li>Microsoft Word</li>
+    <li>Moderate Typing</li>
+    <li>Fast Learner</li>
+  </ul>
+
+  <hr>
+  <h2>Reference</h2>
+  <p>Kofi Agyemang, Manager, Petrocell Gas (0556195913)</p>
+
+  <footer>
+    &copy; Nathan. All rights reserved.
+  </footer>
+</body>
+</html>

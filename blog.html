@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About</title>
+  <style>
+    /* Animation */
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Page styles */
+  
+   body {
+      background-image: url(./Project\ pictures/24523677.jpg);
+      color: white;
+      font-size: larger;
+      font-size: 20px;
+      animation: fadeInUp 1s ease-in-out forwards;
+      opacity: 0;
+    }
+
+    h1 {
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+    }
+
+    .content {
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: center;
+      animation: fadeInUp 1s ease-in-out forwards;
+      animation-delay: 0.5s;
+      opacity: 0;
+      animation-fill-mode: forwards;
+    }
+
+    p {
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>About Me</h1>
+    <p>Hello! I'm Nathan Mensah — you can call me NJ for short — a passionate web developer and designer with a keen interest in creating beautiful and functional websites. I love to improve my skills and explore new technologies.</p>
+    <p>In my free time, I enjoy reading books, improving my typing skills, and watching videos. Feel free to connect with me on social media or through my contact page!</p>
+  </div>
+</body>
+</html>

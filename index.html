@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NJ's website</title>
+    
+    <style>
+    header{
+     background-color:#ddd;
+      padding: 12px;
+      text-align: left;
+      margin: -10px;
+      
+        
+    }
+    header a {
+      color: black;
+      margin-right: 23px;
+      text-decoration: none;
+      font-weight: bolder;
+      margin-bottom: -20px;
+      
+     
+    }
+    @keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -40%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+    .circle-link:hover {
+  background-color: black;
+  color: white;
+}
+.circle-link {
+  display: inline-flex;
+  border-radius: 20px;       /* Makes it a circle */
+  height: 30px;
+  width: 90px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  border: 1px solid black;
+  font-size: large;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.get{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 30px;
+    color:white;
+    font-weight: bolder; 
+    text-align: center;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+position: absolute;
+top: 70%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-shadow: 1px 1px 3px rgba(0,0,0,0.7); 
+animation: fadeInUp 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 0.5s;
+   
+}
+
+div {
+    position: absolute;
+  top: 50%; /* vertical center */
+  left: 50%; /* horizontal center */
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+  animation: fadeInUp 1s ease-in-out forwards;
+  opacity: 0;
+}
+    
+    body{
+        background-image: url(./Project\ pictures/24523677.jpg);
+    }
+    
+    
+    
+    </style>
+    
+</head>
+<body>
+   <header><a href="index.html"> HOME</a> 
+        <a href="./contact.html" class="circle-link" > About me</a> 
+        <a href="./resume.html" class="circle-link"  >Blog</a>
+    </header>
+ <div>
+    <h1>  NJ TECH </h1>
+   Web Developer|Designer
+  </div> 
+   <P>
+    <a href="./blog.html" style="text-decoration: none;" class="get"> Get in touch</a>
+    
+</P>
+ 
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me </title>
+</head>
+<style>
+  @keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -40%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+   
+    body{
+        display:grid;
+        justify-content:center;
+        background-image: url(./Project\ pictures/24523677.jpg);
+        margin-top: 50%;
+      
+    
+    }
+  
+    .image-container {
+  position: relative;
+  display: inline-block;
+  animation: fadeInUp 1s ease-in-out forwards;
+  opacity: 0
+}
+
+.image-container img {
+  display: block;
+  width: 600%;
+  height: 900px;
+ 
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%; /* vertical center */
+  left: 50%; /* horizontal center */
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    animation: fadeInUp 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 0.5s;
+}
+a{
+    color: chocolate;
+    
+}
+div > p > a {
+    color:slateblue;
+}
+ 
+  .overlay-text {
+    font-size: 19px;
+    padding: 6px 12px;
+    top: 60%; /* Adjust position if needed */
+  }
+
+
+
+
+</style>
+
+<body>
+    <div class="image-container">
+  <div class="overlay-text"><H1>Contact NJ</H1>
+    <p>If you have any questions or would like to get in touch</p>
+    Email:<a href="mailto:nhatjoey4@gmail.com" style="text-decoration:none;"> nhatjoey4@gmail.com</a>
+    <P><a href="https://wa.me/233559525699" target="_blank" style="text-decoration: none;" > Chat on whatsapp</a></P></div>
+</div>
+
+    
+</body>
+</html>
